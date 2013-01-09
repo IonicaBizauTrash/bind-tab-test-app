@@ -1,0 +1,43 @@
+{
+    "appId": "00000000000000000000000000000105",
+    "name": "Bind Tab",
+    "routes": {
+        "/": "tabs"
+    },
+    "domains": [
+        "bind-tab.jillix.net",
+        "bind-tab.mono.ch"
+    ],
+    "publicDir": "public",
+    "publicUser": 0,
+    "users": [
+        {
+            "id": 0,
+            "username": "",
+            "password": "",
+            "roles": [0]
+        }
+    ],
+    "roles": [
+        {
+            "id": 0,
+            "name": ""
+        }
+    ],
+    "miids": {
+        "tabs": {
+            "module": "github/adioo/bind-tab/dev",
+            "roles": [0],
+            "config": {
+                "html": {
+                    "type": "m",
+                    "path": "tabs"
+                },
+                "css": ["/bootstrap/css/bootstrap.css"],
+                "sample": true
+            },
+            "operations": {}
+        }
+    }
+}
+
