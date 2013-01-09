@@ -45,42 +45,33 @@
             "config": {
                 "html": {
                     "type": "a",
-                    "path": "sample1"
+                    "path": "public/sample1"
                 },
-                "css": ["/bootstrap/css/bootstrap.css"],
-                "sample": true
-            },
-            "operations": {}
+                "css": ["/bootstrap/css/bootstrap.css"]
+            }
         },
-
         "sampleContent2": {
             "module": "github/adioo/layout/v0.0.4",
             "roles": [0],
             "config": {
                 "html": {
                     "type": "a",
-                    "path": "sample2"
+                    "path": "public/sample2"
                 },
-                "css": ["/bootstrap/css/bootstrap.css"],
-                "sample": true
-            },
-            "operations": {}
+                "css": ["/bootstrap/css/bootstrap.css"]
+            }
         },
-
        "sampleContent3": {
             "module": "github/adioo/layout/v0.0.4",
             "roles": [0],
             "config": {
                 "html": {
                     "type": "a",
-                    "path": "sample3"
+                    "path": "public/sample3"
                 },
-                "css": ["/bootstrap/css/bootstrap.css"],
-                "sample": true
-            },
-            "operations": {}
-        },
-        
+                "css": ["/bootstrap/css/bootstrap.css"]
+            }
+        }
     }
 }
 
