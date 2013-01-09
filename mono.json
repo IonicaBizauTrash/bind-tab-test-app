@@ -1,5 +1,5 @@
 {
-    "appId": "00000000000000000000000000000105",
+    "appId": "00000000000000000000000000000013",
     "name": "Bind Tab",
     "routes": {
         "/": "tabs"
@@ -38,7 +38,6 @@
             },
             "operations": {}
         },
-        
        "sampleContent1": {
             "module": "github/adioo/layout/v0.0.4",
             "roles": [0],
