@@ -45,8 +45,7 @@
                 "html": {
                     "type": "a",
                     "path": "public/sample1"
-                },
-                "css": ["/bootstrap/css/bootstrap.css"]
+                }
             }
         },
         "tabContent2": {
@@ -56,8 +55,7 @@
                 "html": {
                     "type": "a",
                     "path": "public/sample2"
-                },
-                "css": ["/bootstrap/css/bootstrap.css"]
+                }
             }
         },
        "tabContent3": {
@@ -67,8 +65,7 @@
                 "html": {
                     "type": "a",
                     "path": "public/sample3"
-                },
-                "css": ["/bootstrap/css/bootstrap.css"]
+                }
             }
         }
     }
