@@ -26,7 +26,7 @@
     ],
     "miids": {
         "tabs": {
-            "module": "github/adioo/bind-tab/dev",
+            "module": "github/adioo/bind-tab/v0.0.1",
             "roles": [0],
             "config": {
                 "html": {
