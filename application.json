@@ -18,7 +18,7 @@
     ],
     "miids": {
         "tabs": {
-            "module": "github/adioo/bind-tab/dev",
+            "module": "github/jillix/bind-tab/dev",
             "roles": [0],
             "config": {
                 "comment": "Use template for demo!"
