@@ -9,63 +9,41 @@
         "bind-tab.mono.ch"
     ],
     "publicDir": "public",
-    "publicUser": 0,
-    "users": [
-        {
-            "id": 0,
-            "username": "",
-            "password": "",
-            "roles": [0]
-        }
-    ],
+    "publicRole": "0",
     "roles": [
         {
             "id": 0,
-            "name": ""
+            "name": "Public"
         }
     ],
     "miids": {
         "tabs": {
-            "module": "github/adioo/bind-tab/v0.0.1",
+            "module": "github/adioo/bind-tab/dev",
             "roles": [0],
             "config": {
-                "html": {
-                    "type": "m",
-                    "path": "tabs"
-                },
-                "css": ["/bootstrap/css/bootstrap.css"],
-                "sample": true
+                "comment": "Use template for demo!"
             },
             "operations": {}
         },
        "tabContent1": {
-            "module": "github/adioo/layout/v0.0.4",
+            "module": "github/jillix/bind-layout/dev",
             "roles": [0],
             "config": {
-                "html": {
-                    "type": "a",
-                    "path": "public/sample1"
-                }
+                "html": "/sample1.html"
             }
         },
         "tabContent2": {
-            "module": "github/adioo/layout/v0.0.4",
+            "module": "github/jillix/bind-layout/dev",
             "roles": [0],
             "config": {
-                "html": {
-                    "type": "a",
-                    "path": "public/sample2"
-                }
+                "html": "/sample2.html"
             }
         },
        "tabContent3": {
-            "module": "github/adioo/layout/v0.0.4",
+            "module": "github/jillix/bind-layout/dev",
             "roles": [0],
             "config": {
-                "html": {
-                    "type": "a",
-                    "path": "public/sample3"
-                }
+                "html": "/sample3.html"
             }
         }
     }
